@@ -1,0 +1,134 @@
+
+
+body{
+    margin: 0 auto;
+    width: 1000px;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+
+
+
+
+.articulo{
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tarjeta{
+    background: #ffffff;
+    width: 220px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid rgb(238, 238, 238);
+    
+}
+
+img{
+    width: 100%;
+    height: 150px;
+    margin-top: 0;
+}
+
+.precio{
+    font-weight: 800;
+    
+}
+
+.precioAntes{
+   text-decoration-line: line-through;
+    
+}
+.box-precios{
+    
+    width: 200px;
+    height: 30px;
+    /* background: lightcoral; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+
+.titulo{
+    width: 200px;
+    height: 10px;
+    margin: 0;
+    margin-top: 10px;
+    font-weight: 800;
+    /* text-transform: uppercase; */
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-align: left;
+}
+
+.nombre{
+    width: 200px;
+    height: 10px;
+    margin: 0;
+    font-weight: 500;
+    
+    font-size: .6em;
+    letter-spacing: .1em;
+    text-align: left;
+}
+
+.boton{
+    width: 200px;
+    height: 30px;
+    border: none;
+    color: white;
+    border: 1px solid black;
+    background: black;
+    font-size: .5em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    transition: all .3s;
+}
+
+.boton:hover{
+    background: white;
+    color: black;
+    font-weight: 600;
+    
+}
+
+.star-rating a {
+    
+    display: inline-block;
+    
+    align-items: flex-start;
+    color: #95a5a6; 
+    border: none;
+    text-decoration: none;
+    
+  }
+
+.star-rating:hover a {
+    color: #f39c12; 
+  }
+
+.star-rating:hover a:hover ~ a {
+      color: #95a5a6; 
+    }
+
+
+.star-rating{
+    width: 200px;
+}
+
+
+

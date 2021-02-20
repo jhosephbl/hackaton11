@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HACKATON 11</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="./estilos-header.css">
+    
+</head>
+<body>
+
+    <header class="Header-container">
+        <img src="https://assets.stickpng.com/thumbs/5847f9cbcef1014c0b5e48c8.png" alt="" class="Header-Logo">
+        <div class="carrito">
+            <a id="button" class="boton-carrito" href=""><img src="./img/carrito.svg" alt=""></a>
+        </div>
+
+        <div id="menu" class="active">
+            <nav class="contenedor-menu" id="contenedor-menu">
+                <div class="contenedor-titulo-bolsa">
+                    <h1 class="tituloBolsa">
+                        BOLSA DE COMPRAS
+                    </h1>
+                    <div class="cursos-comprados" id="compra-cursos"></div>
+                </div>
+                
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="contenedor-texto">
+            <h1>DAKEIV TRAINING</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, aliquam.</p>
+        </div>
+        
+    </main>
+ 
+    <h1 class="titulo-curso">Carrera Basica FrontEnd</h1>
+
+    <section class="articulo">
+    <article class="tarjeta" id="curso1">
+            <img src="https://octopus.mx/wp-content/uploads/2019/05/Google-Negocios-el-futuro-es-aparecer-en-el-mapa.png" alt="">
+            <h2 class="titulo">HTML</h2>
+            <h2 class="nombre">Diego Cueva</h2>
+            <div class="star-rating">
+                    <a href="#">&#9733;</a>
+                    <a href="#">&#9733;</a>
+                    <a href="#">&#9733;</a>
+                    <a href="#">&#9733;</a>
+                    <a href="#">&#9733;</a>
+                </div>
+            <div class="box-precios" id="box-precios">
+                    <div class="precioAntes" id="precioAntes">S/ 1000</div>
+                    <div class="precio" id="precio">S/ 600</div>
+            </div>
+            
+            <input class="boton" id="button"  type="submit" value="Agregar al carrito">
+        </article>
+        <article class="tarjeta" id="curso2">
+            <img src="https://octopus.mx/wp-content/uploads/2019/05/Google-Negocios-el-futuro-es-aparecer-en-el-mapa.png" alt="">
+            <h2 class="titulo">CSS</h2>
+            <h2 class="nombre">Diego Cueva</h2>
+            <div class="star-rating">
+                    <a href="#">&#9733;</a>
+                    <a href="#">&#9733;</a>
+                    <a href="#">&#9733;</a>
+                    <a href="#">&#9733;</a>
+                    <a href="#">&#9733;</a>
+                </div>
+            <div class="box-precios" id="box-precios">
+                    <div class="precioAntes" id="precioAntes">S/ 1000</div>
+                    <div class="precio" id="precio">S/ 600</div>
+            </div>
+            
+            <input class="boton" id="button"  type="submit" value="Agregar al carrito">
+        </article>
+        <article class="tarjeta" id="curso3">
+            <img src="https://octopus.mx/wp-content/uploads/2019/05/Google-Negocios-el-futuro-es-aparecer-en-el-mapa.png" alt="">
+            <h2 class="titulo">Fundamentos Programacion</h2>
+            <h2 class="nombre">Diego Cueva</h2>
+            <div class="star-rating">
+                    <a href="#">&#9733;</a>
+                    <a href="#">&#9733;</a>
+                    <a href="#">&#9733;</a>
+                    <a href="#">&#9733;</a>
+                    <a href="#">&#9733;</a>
+                </div>
+            <div class="box-precios" id="box-precios">
+                    <div class="precioAntes" id="precioAntes">S/ 1000</div>
+                    <div class="precio" id="precio">S/ 600</div>
+            </div>
+            
+            <input class="boton" id="button"  type="submit" value="Agregar al carrito">
+        </article>
+        
+    </section>
+
+    <div id="bolsa-lista"></div>
+   
+   
+  
+
+    <script src="./app.js"></script>
+</body>
+</html>
